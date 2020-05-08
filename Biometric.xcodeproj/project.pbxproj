@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50AC8997246420C300B839C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC8996246420C300B839C0 /* AppDelegate.swift */; };
-		50AC8999246420C300B839C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC8998246420C300B839C0 /* SceneDelegate.swift */; };
-		50AC899B246420C300B839C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC899A246420C300B839C0 /* ViewController.swift */; };
-		50AC899E246420C300B839C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC899C246420C300B839C0 /* Main.storyboard */; };
-		50AC89A0246420C400B839C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AC899F246420C400B839C0 /* Assets.xcassets */; };
-		50AC89A3246420C400B839C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC89A1246420C400B839C0 /* LaunchScreen.storyboard */; };
+		50AC89C92464210B00B839C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AC89B92464210A00B839C0 /* Assets.xcassets */; };
+		50AC89CA2464210B00B839C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC89BA2464210A00B839C0 /* LaunchScreen.storyboard */; };
+		50AC89CB2464210B00B839C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC89BD2464210B00B839C0 /* ViewController.swift */; };
+		50AC89CC2464210B00B839C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC89BE2464210B00B839C0 /* Main.storyboard */; };
+		50AC89CD2464210B00B839C0 /* BiometricHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC89C22464210B00B839C0 /* BiometricHandler.swift */; };
+		50AC89CE2464210B00B839C0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC89C42464210B00B839C0 /* Toast.swift */; };
+		50AC89CF2464210B00B839C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 50AC89C52464210B00B839C0 /* README.md */; };
+		50AC89D02464210B00B839C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC89C72464210B00B839C0 /* AppDelegate.swift */; };
+		50AC89D12464210B00B839C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC89C82464210B00B839C0 /* SceneDelegate.swift */; };
+		50AC89D4246421E000B839C0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AC89D3246421E000B839C0 /* LocalAuthentication.framework */; };
+		50BE82262464EF5B00B4F15C /* BioMetricModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE82252464EF5B00B4F15C /* BioMetricModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50AC8993246420C300B839C0 /* Biometric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biometric.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50AC8996246420C300B839C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50AC8998246420C300B839C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50AC899A246420C300B839C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50AC899D246420C300B839C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50AC899F246420C400B839C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50AC89A2246420C400B839C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50AC89A4246420C400B839C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AC89B92464210A00B839C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50AC89BB2464210A00B839C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50AC89BD2464210B00B839C0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50AC89BF2464210B00B839C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50AC89C22464210B00B839C0 /* BiometricHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricHandler.swift; sourceTree = "<group>"; };
+		50AC89C42464210B00B839C0 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		50AC89C52464210B00B839C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50AC89C72464210B00B839C0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50AC89C82464210B00B839C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50AC89D3246421E000B839C0 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		50BE82252464EF5B00B4F15C /* BioMetricModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioMetricModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AC89D4246421E000B839C0 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,7 @@
 			children = (
 				50AC8995246420C300B839C0 /* Biometric */,
 				50AC8994246420C300B839C0 /* Products */,
+				50AC89D2246421E000B839C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +68,67 @@
 		50AC8995246420C300B839C0 /* Biometric */ = {
 			isa = PBXGroup;
 			children = (
-				50AC8996246420C300B839C0 /* AppDelegate.swift */,
-				50AC8998246420C300B839C0 /* SceneDelegate.swift */,
-				50AC899A246420C300B839C0 /* ViewController.swift */,
-				50AC899C246420C300B839C0 /* Main.storyboard */,
-				50AC899F246420C400B839C0 /* Assets.xcassets */,
-				50AC89A1246420C400B839C0 /* LaunchScreen.storyboard */,
+				50AC89C62464210B00B839C0 /* Delegates */,
+				50AC89C12464210B00B839C0 /* Handler */,
+				50AC89C32464210B00B839C0 /* Helpers */,
+				50AC89C52464210B00B839C0 /* README.md */,
+				50AC89B82464210A00B839C0 /* Resources */,
+				50AC89BC2464210B00B839C0 /* View Controller */,
 				50AC89A4246420C400B839C0 /* Info.plist */,
 			);
 			path = Biometric;
+			sourceTree = "<group>";
+		};
+		50AC89B82464210A00B839C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50AC89B92464210A00B839C0 /* Assets.xcassets */,
+				50AC89BA2464210A00B839C0 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50AC89BC2464210B00B839C0 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50AC89BD2464210B00B839C0 /* ViewController.swift */,
+				50AC89BE2464210B00B839C0 /* Main.storyboard */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		50AC89C12464210B00B839C0 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				50AC89C22464210B00B839C0 /* BiometricHandler.swift */,
+				50BE82252464EF5B00B4F15C /* BioMetricModel.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		50AC89C32464210B00B839C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				50AC89C42464210B00B839C0 /* Toast.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50AC89C62464210B00B839C0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				50AC89C72464210B00B839C0 /* AppDelegate.swift */,
+				50AC89C82464210B00B839C0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		50AC89D2246421E000B839C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50AC89D3246421E000B839C0 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +189,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AC89A3246420C400B839C0 /* LaunchScreen.storyboard in Resources */,
-				50AC89A0246420C400B839C0 /* Assets.xcassets in Resources */,
-				50AC899E246420C300B839C0 /* Main.storyboard in Resources */,
+				50AC89CC2464210B00B839C0 /* Main.storyboard in Resources */,
+				50AC89C92464210B00B839C0 /* Assets.xcassets in Resources */,
+				50AC89CF2464210B00B839C0 /* README.md in Resources */,
+				50AC89CA2464210B00B839C0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +203,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AC899B246420C300B839C0 /* ViewController.swift in Sources */,
-				50AC8997246420C300B839C0 /* AppDelegate.swift in Sources */,
-				50AC8999246420C300B839C0 /* SceneDelegate.swift in Sources */,
+				50AC89D12464210B00B839C0 /* SceneDelegate.swift in Sources */,
+				50AC89D02464210B00B839C0 /* AppDelegate.swift in Sources */,
+				50BE82262464EF5B00B4F15C /* BioMetricModel.swift in Sources */,
+				50AC89CB2464210B00B839C0 /* ViewController.swift in Sources */,
+				50AC89CE2464210B00B839C0 /* Toast.swift in Sources */,
+				50AC89CD2464210B00B839C0 /* BiometricHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		50AC899C246420C300B839C0 /* Main.storyboard */ = {
+		50AC89BA2464210A00B839C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50AC899D246420C300B839C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50AC89A1246420C400B839C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50AC89A2246420C400B839C0 /* Base */,
+				50AC89BB2464210A00B839C0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50AC89BE2464210B00B839C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AC89BF2464210B00B839C0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
