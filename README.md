@@ -6,7 +6,7 @@ This project is created to understand the working of Biometric Authentication an
 
 You can make use of Apple's Face ID and Touch ID for carrying out authentication in your app.
 
-If you want to implement it straight away, you can make copy the handler in the project and jump to the Usage part.
+If you want to implement it straight away, you can do installation, configuration and copy the handler in the project and jump to the Usage part.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -42,6 +42,7 @@ There are three important section in this handler. (i) Initializing the Context 
         //Reuse duration - you can give your own duration in secs
         //context.touchIDAuthenticationAllowableReuseDuration = LATouchIDAuthenticationMaximumAllowableReuseDuration
         context.touchIDAuthenticationAllowableReuseDuration = reUseDuration
+    }
     
 ```
 
