@@ -196,4 +196,4 @@ There are three important section in this handler. (i) Initializing the Context 
 ```
 
 
-### Check out my Post about Biometric Authentication : [Biometric Authentication](https://vijaysn.com/2020/04/23/ios-av-player/)
+### Check out my Article about Biometric Authentication : [Biometric Authentication](https://vijaysn.com/mobile/ios/ios-biometric-authentication)
